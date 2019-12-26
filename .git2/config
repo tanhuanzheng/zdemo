@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = company
+	email = 342584781@qq.com
+[remote "origin"]
+	url = git@github.com:tanhuanzheng/zdemo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
