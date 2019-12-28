@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'dformdt.apps.DformdtConfig',
     'enoneformdt.apps.EnoneformdtConfig',
     'fmetadt.apps.FmetadtConfig',
+    'grespon.apps.GresponConfig',
 ]
 
 MIDDLEWARE = [

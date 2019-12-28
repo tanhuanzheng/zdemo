@@ -25,5 +25,6 @@ urlpatterns = [
     url(r'^dformdt/', include('dformdt.urls')),
     url(r'^enoneformdt/', include('enoneformdt.urls')),
     url(r'^fmetadt/', include('fmetadt.urls')),
+    url(r'^grespon/', include('grespon.urls')),
 
 ]
