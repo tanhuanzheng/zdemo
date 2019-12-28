@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^bweather/', include('bweather.urls')),
     url(r'^cqs/', include('cqs.urls')),
     url(r'^dformdt/', include('dformdt.urls')),
+    url(r'^enoneformdt/', include('enoneformdt.urls')),
 
 ]

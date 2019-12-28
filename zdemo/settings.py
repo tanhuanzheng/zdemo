@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'bweather.apps.BweatherConfig',
     'cqs.apps.CqsConfig',
     'dformdt.apps.DformdtConfig',
+    'enoneformdt.apps.EnoneformdtConfig',
 ]
 
 MIDDLEWARE = [
