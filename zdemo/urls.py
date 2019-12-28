@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^cqs/', include('cqs.urls')),
     url(r'^dformdt/', include('dformdt.urls')),
     url(r'^enoneformdt/', include('enoneformdt.urls')),
+    url(r'^fmetadt/', include('fmetadt.urls')),
 
 ]

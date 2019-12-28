@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'cqs.apps.CqsConfig',
     'dformdt.apps.DformdtConfig',
     'enoneformdt.apps.EnoneformdtConfig',
+    'fmetadt.apps.FmetadtConfig',
 ]
 
 MIDDLEWARE = [
