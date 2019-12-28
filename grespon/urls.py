@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index),
-    url(r'^index2$', views.index2),
+    url(r'^hrespon$', views.hrespon),
+    url(r'^jrespon$', views.jrespon),
 ]
