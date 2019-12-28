@@ -20,4 +20,8 @@ import users.urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^users/', include(users.urls)),
+    url(r'^bweather/', include('bweather.urls')),
+    url(r'^cqs/', include('cqs.urls')),
+    url(r'^dformdt/', include('dformdt.urls')),
+
 ]

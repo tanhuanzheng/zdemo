@@ -3,6 +3,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index),
-    url(r'^index/$', views.index_one),
-    url(r'^index_two/$', views.index_two, name='two'),
+    url(r'^(?P<city>[a-z]+)/(?P<year>\d{4})$', views.index2)    # ?P<year>给分组起名字
 ]
