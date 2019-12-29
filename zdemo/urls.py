@@ -18,6 +18,7 @@ from django.contrib import admin
 import users.urls
 
 urlpatterns = [
+    url(r'^$', include('bweather.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^users/', include(users.urls)),
     url(r'^bweather/', include('bweather.urls')),

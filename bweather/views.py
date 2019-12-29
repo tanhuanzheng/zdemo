@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def index(request):    # 访问首页
 
-    return HttpResponse('bweather')
+    return HttpResponse('hello world')
 
 
 def index2(request, year, city):  # 获取路径参数
